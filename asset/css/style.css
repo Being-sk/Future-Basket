@@ -1,0 +1,187 @@
+html,
+body {
+    background-color: #f7f7f7;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    border-bottom: 1px solid #d8d8d8;
+    box-shadow: 5px 5px 10px #e2e4e5;
+    background-color: #fafafa;
+    display: flex;
+    flex-grow: 1;
+}
+
+.navbar-brand {
+    margin-left: 35px;
+    background-color: #fff;
+    padding: 10px;
+    font-family: 'Nunito',
+        sans-serif;
+    color: rgb(113, 42, 201);
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid rgb(230, 227, 227);
+    border-radius: 8px;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px #ececec;
+}
+
+.searchBarContainer {
+    /* margin-right: 50px; */
+    flex-grow: 1;
+    width: 100%;
+    justify-content: center;
+}
+
+.searchBar::placeholder {
+    text-indent: 20px;
+    font-size: 18px;
+
+}
+
+.searchBar {
+    text-indent: 20px;
+    display: inline-block;
+    border: 2px solid #eeeeee;
+    border-radius: 20px;
+    width: 35vw;
+    outline: none;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.searchBtn.btn {
+    width: 3vw;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+}
+
+.searchLogo {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.signContainer {
+    align-items: flex-end;
+    display: flex;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+}
+
+.itemimg {
+    width: 100%;
+    height: 75vh;
+
+}
+
+.copyright {
+    padding: 20px;
+    text-align: center;
+    background-color: #e9ecef;
+}
+
+/* Login */
+.column {
+    font-family: 'Nunito',
+        sans-serif;
+    color: #403e3e;
+    flex-grow: 1;
+    background-color: #f9f9f9;
+    min-height: 320px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, alpha0.1) 0 1px 2px;
+}
+
+.signInContainer {
+
+    background-image: url("../img/loginbg.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signInContainer .column .header {
+    width: 350px;
+}
+
+.signInContainer .column {
+    flex-grow: 0;
+    width: 50vw;
+    padding: 20px 70px;
+    max-height: 100%;
+}
+
+.signInContainer .column .header h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: 16px;
+}
+
+.signInContainer .column .header span {
+    font-size: 14px;
+}
+
+.signInContainer .column .loginForm {
+    padding-top: 14px;
+}
+
+.signInContainer .column form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signInContainer .column form input[type="text"],
+.signInContainer .column form input[type="email"],
+.signInContainer .column form input[type="password"] {
+    font-size: 18px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #727070;
+    color: #272525;
+    outline: none;
+    background-color: #f7f7f7;
+
+}
+
+.signInContainer .column form input[type="submit"] {
+    background-color: #4285f4;
+    color: #fff;
+    height: 36px;
+    width: 88px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    margin-top: 10px;
+    /* margin-bottom: 20px; */
+    font-size: 14px;
+
+}
+
+.signInMessage {
+    font-size: 14px;
+    font-weight: 400;
+    color: #202020;
+    text-decoration: none;
+}
+
+.page-footer {
+    background-color: #fafafa;
+}
